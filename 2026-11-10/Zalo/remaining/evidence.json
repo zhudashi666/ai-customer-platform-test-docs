@@ -1,0 +1,570 @@
+[
+  {
+    "id": "R00a",
+    "caption": "开测前Dinh处于AI接待",
+    "status": "部分",
+    "detail": "本轮刷新后Dinh为AI，先切人工后执行后续项目。",
+    "time": "2026-11-10 10:23:22",
+    "screenshot": "screenshots/R00a.jpg"
+  },
+  {
+    "id": "R00b",
+    "caption": "Hai确认人工接待，双端AI均关闭",
+    "status": "过",
+    "detail": "Dinh已切人工，Hai现有会话AI0人工1，两号在线2。",
+    "time": "2026-11-10 10:26:35",
+    "screenshot": "screenshots/R00b.jpg"
+  },
+  {
+    "id": "R01a",
+    "caption": "新增话术后列表显示测试内容",
+    "status": "过",
+    "detail": "Hai话术原列表空，保存R01初版后列表可见；仅提供删除及新增，没有独立编辑按钮。",
+    "time": "2026-11-10 10:30:04",
+    "screenshot": "screenshots/R01a.jpg"
+  },
+  {
+    "id": "R01b",
+    "caption": "Hai发出快捷话术显示已发送",
+    "status": "部分",
+    "detail": "点击话术插入输入框，点击发送后消息气泡显示已发送；待Dinh对端核对。",
+    "time": "2026-11-10 10:31:49",
+    "screenshot": "screenshots/R01b.jpg"
+  },
+  {
+    "id": "R01c",
+    "caption": "Dinh收到本轮快捷话术",
+    "status": "过",
+    "detail": "Dinh人工会话显示Hai在10:31发来的R01完整文本，双端收发核对通过。",
+    "time": "2026-11-10 10:32:38",
+    "screenshot": "screenshots/R01c.jpg"
+  },
+  {
+    "id": "R01d",
+    "caption": "删除测试话术后列表恢复空白",
+    "status": "过",
+    "detail": "Dinh也能看到Hai新建话术，说明同企业共享；删除仅本轮R01话术后恢复空列表。",
+    "time": "2026-11-10 10:34:47",
+    "screenshot": "screenshots/R01d.jpg"
+  },
+  {
+    "id": "R02a",
+    "caption": "重新打开当前客户设置核对模型",
+    "status": "部分",
+    "detail": "应用Pro后重开仅当前客户设置，按界面回读结果判断持久保存。",
+    "time": "2026-11-10 10:39:46",
+    "screenshot": "screenshots/R02a.jpg"
+  },
+  {
+    "id": "R02b",
+    "caption": "选中Pro并限定当前测试客户",
+    "status": "部分",
+    "detail": "当前客户Hai，Pro选中，测试客服未变；下一步点击应用后刷新回读。",
+    "time": "2026-11-10 10:40:40",
+    "screenshot": "screenshots/R02b.jpg"
+  },
+  {
+    "id": "R02c",
+    "caption": "应用Pro后刷新仍回显1.6",
+    "status": "不过（待修）",
+    "detail": "第二次选择Pro并应用当前客户，刷新后重新进入仅当前客户仍显示1.6；可能保存或回读故障，未断言后台实际模型。",
+    "time": "2026-11-10 10:43:35",
+    "screenshot": "screenshots/R02c.jpg"
+  },
+  {
+    "id": "R03a",
+    "caption": "新增测试分组显示人数为0",
+    "status": "过",
+    "detail": "Dinh新增R03-1110蓝色分组，未改变任何会话归属。",
+    "time": "2026-11-10 10:44:41",
+    "screenshot": "screenshots/R03a.jpg"
+  },
+  {
+    "id": "R03b",
+    "caption": "分组改名后列表回显新名称",
+    "status": "过",
+    "detail": "R03-1110改为R03-改名，原有会话尚未归组。",
+    "time": "2026-11-10 10:45:05",
+    "screenshot": "screenshots/R03b.jpg"
+  },
+  {
+    "id": "R03c",
+    "caption": "批量归组后筛选显示测试好友",
+    "status": "过",
+    "detail": "仅选Hai加入R03-改名，分组人数1，筛选后显示Hai会话。",
+    "time": "2026-11-10 10:45:41",
+    "screenshot": "screenshots/R03c.jpg"
+  },
+  {
+    "id": "R03d",
+    "caption": "分组移出后人数归零",
+    "status": "过",
+    "detail": "Hai Anh已移出临时分组，分组筛选为空。",
+    "time": "2026-11-10 10:48:33",
+    "screenshot": "screenshots/R03d.jpg"
+  },
+  {
+    "id": "R03e",
+    "caption": "临时分组删除后恢复空列表",
+    "status": "过",
+    "detail": "删除本轮新建空分组，聊天保留。",
+    "time": "2026-11-10 10:48:55",
+    "screenshot": "screenshots/R03e.jpg"
+  },
+  {
+    "id": "R04a",
+    "caption": "临时标签创建成功",
+    "status": "过",
+    "detail": "新建R04-1110，原有七个标签保持不变。",
+    "time": "2026-11-10 10:49:06",
+    "screenshot": "screenshots/R04a.jpg"
+  },
+  {
+    "id": "R04b",
+    "caption": "标签改名保存成功",
+    "status": "过",
+    "detail": "R04-1110改为R04-改名，数量仍为0。",
+    "time": "2026-11-10 10:49:16",
+    "screenshot": "screenshots/R04b.jpg"
+  },
+  {
+    "id": "R04c",
+    "caption": "批量标签筛选命中测试联系人",
+    "status": "过",
+    "detail": "只给Hai Anh添加R04-改名；筛选命中1人，原有三个标签保留。",
+    "time": "2026-11-10 10:49:46",
+    "screenshot": "screenshots/R04c.jpg"
+  },
+  {
+    "id": "R04d",
+    "caption": "移除测试标签后筛选为空",
+    "status": "过",
+    "detail": "移除R04-改名后该标签人数归零。",
+    "time": "2026-11-10 10:50:00",
+    "screenshot": "screenshots/R04d.jpg"
+  },
+  {
+    "id": "R04e",
+    "caption": "临时标签清理完成",
+    "status": "过",
+    "detail": "仅删除本轮新增标签，原有七个标签保留。",
+    "time": "2026-11-10 10:50:09",
+    "screenshot": "screenshots/R04e.jpg"
+  },
+  {
+    "id": "R05a",
+    "caption": "客户档案更新到第三版",
+    "status": "过",
+    "detail": "更新时间10:50、第3版、之后没有新消息；AI判断增加为4项。",
+    "time": "2026-11-10 10:50:54",
+    "screenshot": "screenshots/R05a.jpg"
+  },
+  {
+    "id": "R05b",
+    "caption": "客户自定义字段保存成功",
+    "status": "过",
+    "detail": "基本信息字段从8/10变为9/10，新字段待AI填写。",
+    "time": "2026-11-10 10:51:08",
+    "screenshot": "screenshots/R05b.jpg"
+  },
+  {
+    "id": "R05c",
+    "caption": "自定义字段改名成功",
+    "status": "过",
+    "detail": "R05测试字段改为R05字段改名。",
+    "time": "2026-11-10 10:51:25",
+    "screenshot": "screenshots/R05c.jpg"
+  },
+  {
+    "id": "R05d",
+    "caption": "客户临时字段清理完成",
+    "status": "过",
+    "detail": "删除本次空测试字段，恢复基本信息8/10；档案更新后的第3版保留。",
+    "time": "2026-11-10 10:51:34",
+    "screenshot": "screenshots/R05d.jpg"
+  },
+  {
+    "id": "R06a",
+    "caption": "进度记录及关注标记已保存",
+    "status": "过",
+    "detail": "新增R06测试阶段与说明，列表共2条，需关注标记开启。",
+    "time": "2026-11-10 10:51:54",
+    "screenshot": "screenshots/R06a.jpg"
+  },
+  {
+    "id": "R06b",
+    "caption": "刷新后进度与关注标记保留",
+    "status": "过",
+    "detail": "刷新浏览器后R06阶段、说明、需关注均保留。",
+    "time": "2026-11-10 10:52:02",
+    "screenshot": "screenshots/R06b.jpg"
+  },
+  {
+    "id": "R06c",
+    "caption": "临时进度删除后原记录保留",
+    "status": "过",
+    "detail": "仅清理R06记录，当前阶段回到原值1/2，原记录未删除。",
+    "time": "2026-11-10 10:52:09",
+    "screenshot": "screenshots/R06c.jpg"
+  },
+  {
+    "id": "R07a",
+    "caption": "当前会话开启中文自动翻译",
+    "status": "部分",
+    "detail": "Dinh接收端仅当前会话，自动识别翻译为中文；两端人工。",
+    "time": "2026-11-10 10:52:19",
+    "screenshot": "screenshots/R07a.jpg"
+  },
+  {
+    "id": "R07b",
+    "caption": "发送越南语测试自动翻译",
+    "status": "部分",
+    "detail": "发送操作的中间截图；实际送达与自动译文以R07c为准。",
+    "time": "2026-11-10 10:52:34",
+    "screenshot": "screenshots/R07b.jpg"
+  },
+  {
+    "id": "R07c",
+    "caption": "新越南语消息自动显示中文译文",
+    "status": "过",
+    "detail": "接收端原文与译文同时显示：你好，我想在下午三点订两杯咖啡。",
+    "time": "2026-11-10 10:52:50",
+    "screenshot": "screenshots/R07c.jpg"
+  },
+  {
+    "id": "R07d",
+    "caption": "自动翻译已关闭恢复原设置",
+    "status": "部分",
+    "detail": "关闭操作后的过渡画面；最终关闭状态以R17a为准。",
+    "time": "2026-11-10 10:52:50",
+    "screenshot": "screenshots/R07d.jpg"
+  },
+  {
+    "id": "R08a",
+    "caption": "单次主动消息预约待执行",
+    "status": "部分",
+    "detail": "尝试填写10:56，但失焦后恢复默认11:55，实际保存为11:55；随后已取消。输入控件自动填写兼容性待核查，不作为定时触发通过证据。",
+    "time": "2026-11-10 10:53:25",
+    "screenshot": "screenshots/R08a.jpg"
+  },
+  {
+    "id": "R08b",
+    "caption": "主动消息预约取消成功",
+    "status": "过",
+    "detail": "#2显示已取消，坐席预约0/3，无待发。首次尝试修改时间未生效，需要重新用可见输入确认。",
+    "time": "2026-11-10 10:56:05",
+    "screenshot": "screenshots/R08b.jpg"
+  },
+  {
+    "id": "R08c",
+    "caption": "时间输入失焦后恢复默认值",
+    "status": "部分",
+    "detail": "fill后DOM值曾为11:02，但填写说明后截图回到12:00；后续用键盘变更可提交，属于自动化输入兼容性现象，暂不判产品缺陷。",
+    "time": "2026-11-10 10:59:11",
+    "screenshot": "screenshots/R08c.jpg"
+  },
+  {
+    "id": "R08d",
+    "caption": "循环预约每天九点三次已保存",
+    "status": "部分",
+    "detail": "创建每天09:00、满3次结束的循环预约，接下来立即取消，不实际执行循环发送。",
+    "time": "2026-11-10 11:03:27",
+    "screenshot": "screenshots/R08d.jpg"
+  },
+  {
+    "id": "R08e",
+    "caption": "循环测试预约已取消",
+    "status": "过",
+    "detail": "取消#4循环预约，保留#3单次12:00待观察。",
+    "time": "2026-11-10 11:05:06",
+    "screenshot": "screenshots/R08e.jpg"
+  },
+  {
+    "id": "R12a",
+    "caption": "AI改图依赖聊天目标触发条件",
+    "status": "部分",
+    "detail": "本会话无改图记录，页面说明由聊天目标中的时机触发，并非此处直接上传改图。",
+    "time": "2026-11-10 11:06:27",
+    "screenshot": "screenshots/R12a.jpg"
+  },
+  {
+    "id": "R12b",
+    "caption": "号池当前会话分配状态",
+    "status": "部分",
+    "detail": "记录号池面板当前状态，未向第三方分配号码。",
+    "time": "2026-11-10 11:07:36",
+    "screenshot": "screenshots/R12b.jpg"
+  },
+  {
+    "id": "R12c",
+    "caption": "素材库当前会话无AI发送记录",
+    "status": "部分",
+    "detail": "工具箱为历史记录页，当前无素材发送记录。",
+    "time": "2026-11-10 11:08:54",
+    "screenshot": "screenshots/R12c.jpg"
+  },
+  {
+    "id": "R09b",
+    "caption": "定时群发设为今天十一点二十分",
+    "status": "部分",
+    "detail": "通过键盘提交日期时间后核对，目标1人，两版文案。",
+    "time": "2026-11-10 11:16:01",
+    "screenshot": "screenshots/R09b.jpg"
+  },
+  {
+    "id": "R09c",
+    "caption": "定时群发已暂停且尚未发送",
+    "status": "过",
+    "detail": "11:20定时任务暂停，已发送0、待发1。",
+    "time": "2026-11-10 11:18:34",
+    "screenshot": "screenshots/R09c.jpg"
+  },
+  {
+    "id": "R09d",
+    "caption": "计划时间已到任务仍保持暂停",
+    "status": "过",
+    "detail": "11:20之后仍为已暂停，已发送0、待发1；接下来恢复。",
+    "time": "2026-11-10 11:20:00",
+    "screenshot": "screenshots/R09d.jpg"
+  },
+  {
+    "id": "R09e",
+    "caption": "群发恢复后进入等待队列",
+    "status": "过",
+    "detail": "继续后恢复等待发送，稳妥节奏重新排期11:21；等待对端实际收到。",
+    "time": "2026-11-10 11:20:22",
+    "screenshot": "screenshots/R09e.jpg"
+  },
+  {
+    "id": "R08f",
+    "caption": "短时主动预约时间正确保存",
+    "status": "部分",
+    "detail": "新建#5显示今天11:24；#2/#3/#4均已取消。",
+    "time": "2026-11-10 11:20:57",
+    "screenshot": "screenshots/R08f.jpg"
+  },
+  {
+    "id": "R09f",
+    "caption": "人工会话不允许AI群发",
+    "status": "过",
+    "detail": "AI发挥提示所选会话人工接待，目标0人、开始按钮禁用。",
+    "time": "2026-11-10 11:21:18",
+    "screenshot": "screenshots/R09f.jpg"
+  },
+  {
+    "id": "R09g",
+    "caption": "切为AI后群发人数未同步更新",
+    "status": "不过（待修）",
+    "detail": "聊天已AI接待、左侧AI托管1，但打开中的群发面板仍AI托管0人工1，AI群发按钮0人禁用。",
+    "time": "2026-11-10 11:22:03",
+    "screenshot": "screenshots/R09g.jpg"
+  },
+  {
+    "id": "R09h",
+    "caption": "固定群发完成且AI任务已建立",
+    "status": "部分",
+    "detail": "固定版本A任务已完成，AI纯文字任务提交成功；继续核对收件端。",
+    "time": "2026-11-10 11:22:43",
+    "screenshot": "screenshots/R09h.jpg"
+  },
+  {
+    "id": "R16a",
+    "caption": "媒体文件分类可下载测试文件",
+    "status": "过",
+    "detail": "Hai收到的既有测试TXT74B通过媒体文件页实际下载；只验证下载，不视为本轮发送结果。",
+    "time": "2026-11-10 11:23:11",
+    "screenshot": "screenshots/R16a.jpg"
+  },
+  {
+    "id": "R16b",
+    "caption": "媒体语音分类显示三条可播放音频",
+    "status": "部分",
+    "detail": "语音分类列出3条，后续检查播放进度；不依据历史消息推断本轮发送成功。",
+    "time": "2026-11-10 11:23:28",
+    "screenshot": "screenshots/R16b.jpg"
+  },
+  {
+    "id": "R16c",
+    "caption": "媒体语音进入实际播放状态",
+    "status": "过",
+    "detail": "5秒测试音频按空格后paused=false、进度开始推进；仅验播放状态，未做听感质量断言。",
+    "time": "2026-11-10 11:23:37",
+    "screenshot": "screenshots/R16c.jpg"
+  },
+  {
+    "id": "R09j",
+    "caption": "接收端收到固定版本A群发",
+    "status": "过",
+    "detail": "Hai人工接待收到固定版本A，昵称替换为Hai Anh；此图没有AI群发收件证据。",
+    "time": "2026-11-10 11:23:45",
+    "screenshot": "screenshots/R09j.jpg"
+  },
+  {
+    "id": "R15a",
+    "caption": "删除会话会清除本地显示历史",
+    "status": "待老板",
+    "detail": "删除确认说明：删除工作台对话及显示历史；Zalo及对端保留，客户再发消息创建新上下文。尚未确认删除。",
+    "time": "2026-11-10 11:26:59",
+    "screenshot": "screenshots/R15a.jpg"
+  },
+  {
+    "id": "R09k",
+    "caption": "AI群发任务完成一人",
+    "status": "不过（待修）",
+    "detail": "任务显示已发送1、失败0、跳过0，但两端会话未见对应消息（R08h/R09l）。仅任务状态完成，实际送达未通过。",
+    "time": "2026-11-10 11:27:33",
+    "screenshot": "screenshots/R09k.jpg"
+  },
+  {
+    "id": "R08g",
+    "caption": "单次预约已发送且无剩余任务",
+    "status": "不过（待修）",
+    "detail": "预约#5与AI群发预约#6标记已发送，坐席预约0/3；但两端无对应消息，不能作为送达成功。#2/#3/#4已取消。",
+    "time": "2026-11-10 11:27:49",
+    "screenshot": "screenshots/R08g.jpg"
+  },
+  {
+    "id": "R08h",
+    "caption": "发送端未见预约与AI群发消息",
+    "status": "不过（待修）",
+    "detail": "刷新后发送端最新仍为11:22固定群发；未见R08D或R09AI消息，与任务已发送状态不一致。",
+    "time": "2026-11-10 11:28:16",
+    "screenshot": "screenshots/R08h.jpg"
+  },
+  {
+    "id": "R09l",
+    "caption": "接收端也未见两条预约消息",
+    "status": "不过（待修）",
+    "detail": "刷新重新进入Hai会话，最新仍11:22固定版本A；R08D、R09AI未出现，未按送达通过。",
+    "time": "2026-11-10 11:28:23",
+    "screenshot": "screenshots/R09l.jpg"
+  },
+  {
+    "id": "R11a",
+    "caption": "仅Hai启用短时作息测试",
+    "status": "部分",
+    "detail": "Dinh已人工；Hai设置11:30睡觉11:33起床，作息开启，观察到点停止及起床补回。",
+    "time": "2026-11-10 11:29:03",
+    "screenshot": "screenshots/R11a.jpg"
+  },
+  {
+    "id": "R16d",
+    "caption": "几何测试图片预览入口",
+    "status": "部分",
+    "detail": "点击Z05图片打开媒体预览，记录实际画面；缩放旋转待单独确认。",
+    "time": "2026-11-10 11:29:37",
+    "screenshot": "screenshots/R16d.jpg"
+  },
+  {
+    "id": "R16e",
+    "caption": "图片旋转后正常显示",
+    "status": "部分",
+    "detail": "Z05图片旋转90度正常；截图显示100%，不能证明放大125%。预览曾自行关闭两次，缩放未充分验证。",
+    "time": "2026-11-10 11:29:43",
+    "screenshot": "screenshots/R16e.jpg"
+  },
+  {
+    "id": "R11b",
+    "caption": "睡觉时段自动转为人工",
+    "status": "过",
+    "detail": "11:30睡觉后Hai当前会话自动人工，未手动切换；Dinh保持人工。",
+    "time": "2026-11-10 11:32:14",
+    "screenshot": "screenshots/R11b.jpg"
+  },
+  {
+    "id": "R11c",
+    "caption": "起床时间后自动恢复AI",
+    "status": "过",
+    "detail": "11:33起床后自动恢复AI接待；Dinh仍人工。休息期间未成功发入新测试消息，不判夜间补回通过。",
+    "time": "2026-11-10 11:33:57",
+    "screenshot": "screenshots/R11c.jpg"
+  },
+  {
+    "id": "R11d",
+    "caption": "作息已恢复原配置并关闭",
+    "status": "过",
+    "detail": "Hai恢复08:00–23:30，北京时间，作息关闭，人工接管；夜间放慢仍关闭3分钟。",
+    "time": "2026-11-10 11:39:00",
+    "screenshot": "screenshots/R11d.jpg"
+  },
+  {
+    "id": "R10a",
+    "caption": "工作台拉黑已生效",
+    "status": "部分",
+    "detail": "Hai将Dinh拉黑，仅工作台拦截新消息；后续验证解除恢复。",
+    "time": "2026-11-10 11:41:41",
+    "screenshot": "screenshots/R10a.jpg"
+  },
+  {
+    "id": "R10b",
+    "caption": "发送拉黑期间测试消息",
+    "status": "部分",
+    "detail": "Dinh人工发送R10-BLOCK，用于核验Hai工作台拦截。",
+    "time": "2026-11-10 11:43:22",
+    "screenshot": "screenshots/R10b.jpg"
+  },
+  {
+    "id": "R10c",
+    "caption": "拉黑期间新消息被拦截",
+    "status": "过",
+    "detail": "Dinh显示11:43测试消息已发送，Hai被拉黑会话最新仍11:29，未显示R10-BLOCK。",
+    "time": "2026-11-10 11:44:12",
+    "screenshot": "screenshots/R10c.jpg"
+  },
+  {
+    "id": "R10d",
+    "caption": "解除拉黑后恢复收件",
+    "status": "过",
+    "detail": "接收端出现R10-RESTORE新消息，已拉黑标识消失；R10-BLOCK仍未补收，符合提示。",
+    "time": "2026-11-10 11:48:22",
+    "screenshot": "screenshots/R10d.jpg"
+  },
+  {
+    "id": "R16f",
+    "caption": "测试视频完整播放至结尾",
+    "status": "过",
+    "detail": "蓝色方块测试视频加载正常，播放器显示0:05/0:05；媒体状态readyState4、currentTime与duration同为5.041667秒，无错误。",
+    "time": "2026-11-10 11:50:50",
+    "screenshot": "screenshots/R16f.jpg"
+  },
+  {
+    "id": "R12d",
+    "caption": "语音回复说明未包含Zalo",
+    "status": "部分",
+    "detail": "工具说明仅标注WhatsApp、Telegram；当前Zalo会话无自动语音记录，不判Zalo自动语音通过。",
+    "time": "2026-11-10 11:53:30",
+    "screenshot": "screenshots/R12d.jpg"
+  },
+  {
+    "id": "R12e",
+    "caption": "测试客服缺少相关工具授权",
+    "status": "部分",
+    "detail": "客服卡显示仅主动消息、客户进度、联网查询、重粉、提醒人工；未授权改图、号池、素材库、语音，且无四层模板，聊天目标不生效。未改动配置。",
+    "time": "2026-11-10 11:57:41",
+    "screenshot": "screenshots/R12e.jpg"
+  },
+  {
+    "id": "R13a",
+    "caption": "新增账号代理测试通过",
+    "status": "部分",
+    "detail": "代理测试显示已通过所选线路连接Zalo，十分钟内有效；未进入扫码，未新增或下线账号。公开截图遮蔽代理地址。",
+    "time": "2026-11-10 12:01:29",
+    "screenshot": "screenshots/R13a.jpg"
+  },
+  {
+    "id": "R17a",
+    "caption": "Dinh人工接管且自动翻译关闭",
+    "status": "过",
+    "detail": "Dinh在线、当前会话人工；自动翻译未开启、当前会话中文，作息未启用、标准7秒、重粉关闭。",
+    "time": "2026-11-10 12:04:13",
+    "screenshot": "screenshots/R17a.jpg"
+  },
+  {
+    "id": "R17b",
+    "caption": "Hai人工接管且两账号在线",
+    "status": "过",
+    "detail": "Hai人工1/AI0，作息08:00–23:30未开启、标准7秒、重粉关闭、拉黑已解除，两账号在线。",
+    "time": "2026-11-10 12:05:23",
+    "screenshot": "screenshots/R17b.jpg"
+  }
+]
