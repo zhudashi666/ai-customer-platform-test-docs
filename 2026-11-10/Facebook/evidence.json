@@ -1,0 +1,227 @@
+[
+  {
+    "id": "F01",
+    "caption": "第二账号在线且有两个会话",
+    "status": "过",
+    "detail": "测试账号Dopetzoldt Pilla，2个会话。原有AI绑定fb客服测试，新会话默认AI开、作息关、标准7秒；不触发消息发送，不改变AI状态。",
+    "time": "2026-11-10 16:32:03",
+    "screenshot": "screenshots/F01.jpg",
+    "panel": false
+  },
+  {
+    "id": "F02a",
+    "caption": "备注提交后卡片仍显示添加备注",
+    "status": "部分",
+    "detail": "填写FB1110临时测试并Enter提交后，卡片仍显示添加备注，尚未确认保存是否持久化。",
+    "time": "2026-11-10 16:37:04",
+    "screenshot": "screenshots/F02a.jpg",
+    "panel": false
+  },
+  {
+    "id": "F03a",
+    "caption": "按名称搜索只显示目标会话",
+    "status": "过",
+    "detail": "输入Siegert后仅显示Siegert Woyahn，另一会话不显示。",
+    "time": "2026-11-10 16:38:20",
+    "screenshot": "screenshots/F03a.jpg",
+    "panel": false
+  },
+  {
+    "id": "F03b",
+    "caption": "无匹配关键词显示空结果",
+    "status": "过",
+    "detail": "搜索FB-NOMATCH-1110后无会话结果；随后清空恢复。",
+    "time": "2026-11-10 16:39:13",
+    "screenshot": "screenshots/F03b.jpg",
+    "panel": false
+  },
+  {
+    "id": "F04a",
+    "caption": "会话置顶出现图钉",
+    "status": "过",
+    "detail": "Siegert Woyahn会话出现图钉；原先未置顶。",
+    "time": "2026-11-10 16:41:20",
+    "screenshot": "screenshots/F04a.jpg",
+    "panel": false
+  },
+  {
+    "id": "F04b",
+    "caption": "取消置顶恢复原状态",
+    "status": "过",
+    "detail": "图钉已移除，恢复原未置顶状态。",
+    "time": "2026-11-10 16:43:05",
+    "screenshot": "screenshots/F04b.jpg",
+    "panel": false
+  },
+  {
+    "id": "F05a",
+    "caption": "客户统计与AI消息标记不一致",
+    "status": "部分",
+    "detail": "同一会话4条历史，聊天区两条回复标AI助手/AI，客户面板却统计我方2条（AI0·人工2）；只观察既有记录，未发送新消息。",
+    "time": "2026-11-10 16:44:42",
+    "screenshot": "screenshots/F05a.jpg",
+    "panel": true
+  },
+  {
+    "id": "F05b",
+    "caption": "重开客户面板核对备注",
+    "status": "过",
+    "detail": "关闭重开后客户备注FB1110客户临时备注仍保留，原值为空。",
+    "time": "2026-11-10 16:47:19",
+    "screenshot": "screenshots/F05b.jpg",
+    "panel": true
+  },
+  {
+    "id": "F06a",
+    "caption": "手记进度新增结果",
+    "status": "过",
+    "detail": "当前阶段显示功能测试，全部记录1条，临时说明完整。",
+    "time": "2026-11-10 16:51:37",
+    "screenshot": "screenshots/F06a.jpg",
+    "panel": "progress"
+  },
+  {
+    "id": "F06b",
+    "caption": "清理临时进度恢复零条",
+    "status": "过",
+    "detail": "临时进度清理后当前阶段空、共0条，恢复原值；未删除会话。",
+    "time": "2026-11-10 16:53:00",
+    "screenshot": "screenshots/F06b.jpg",
+    "panel": "progress"
+  },
+  {
+    "id": "F07a",
+    "caption": "新分组直接显示且人数为零",
+    "status": "过",
+    "detail": "提交后FB1110临时分组直接出现在管理列表和分组筛选中，人数0；无需刷新。",
+    "time": "2026-11-10 16:55:43",
+    "screenshot": "screenshots/F07a.jpg",
+    "panel": "group"
+  },
+  {
+    "id": "F07b",
+    "caption": "加入分组未展开可选项目",
+    "status": "部分",
+    "detail": "点击加入分组并按右方向键后未获得可选项目；未改变任何会话归属，可能是交互方式限制，不能判断完整功能通过。",
+    "time": "2026-11-10 16:58:21",
+    "screenshot": "screenshots/F07b.jpg",
+    "panel": false
+  },
+  {
+    "id": "F08",
+    "caption": "标签子菜单未展开选项",
+    "status": "部分",
+    "detail": "点击打标签后的现场；未改已有公司公共标签。",
+    "time": "2026-11-10 16:59:13",
+    "screenshot": "screenshots/F08.jpg",
+    "panel": false
+  },
+  {
+    "id": "F07c",
+    "caption": "空分组筛选不显示无关会话",
+    "status": "过",
+    "detail": "选中0人临时分组，列表为空，统计全部0；无无关会话混入。",
+    "time": "2026-11-10 17:00:32",
+    "screenshot": "screenshots/F07c.jpg",
+    "panel": false
+  },
+  {
+    "id": "F07d",
+    "caption": "临时分组清理后恢复空列表",
+    "status": "过",
+    "detail": "删除本轮临时分组后管理列表立即为空，筛选回全部2会话，聊天保留。",
+    "time": "2026-11-10 17:03:07",
+    "screenshot": "screenshots/F07d.jpg",
+    "panel": "group"
+  },
+  {
+    "id": "F10a",
+    "caption": "回复节奏原值标准七秒",
+    "status": "过",
+    "detail": "配置面板显示快5秒、标准7秒、慢9秒和自定义；标准已选，取消不保存。",
+    "time": "2026-11-10 17:04:59",
+    "screenshot": "screenshots/F10a.jpg",
+    "panel": "pace"
+  },
+  {
+    "id": "F10b",
+    "caption": "作息配置可查看且两开关关闭",
+    "status": "过",
+    "detail": "睡觉与夜间放慢均关，起床08:00/睡觉23:30，跟随角色所在地；仅查看取消，不验证实际消息节奏。",
+    "time": "2026-11-10 17:06:46",
+    "screenshot": "screenshots/F10b.jpg",
+    "panel": "sleep"
+  },
+  {
+    "id": "F09a",
+    "caption": "多选一条后操作按钮启用",
+    "status": "过",
+    "detail": "仅选中Siegert Woyahn，已选1个，批量分组/标签按钮启用；未操作第二条。",
+    "time": "2026-11-10 17:08:57",
+    "screenshot": "screenshots/F09a.jpg",
+    "panel": "multi"
+  },
+  {
+    "id": "F08b",
+    "caption": "多选标签入口检查",
+    "status": "部分",
+    "detail": "多选标签面板能打开，显示已有标签复选框、新建标签与保存；未选择或新增标签，取消退出。",
+    "time": "2026-11-10 17:10:20",
+    "screenshot": "screenshots/F08b.jpg",
+    "panel": "multi"
+  },
+  {
+    "id": "F11a",
+    "caption": "媒体面板显示四类空记录",
+    "status": "过",
+    "detail": "媒体面板图片/视频/文件/语音均0，与本会话仅4条文本历史一致；不测试上传或收发。",
+    "time": "2026-11-10 17:12:08",
+    "screenshot": "screenshots/F11a.jpg",
+    "panel": "media"
+  },
+  {
+    "id": "F11b",
+    "caption": "翻译语言搜索筛选英语",
+    "status": "过",
+    "detail": "输入英语后列表只显示英语；自动翻译仍关闭、原目标中文，不进行翻译收发。",
+    "time": "2026-11-10 17:14:09",
+    "screenshot": "screenshots/F11b.jpg",
+    "panel": "translation"
+  },
+  {
+    "id": "F02b",
+    "caption": "账号备注失焦保存复核",
+    "status": "部分",
+    "detail": "确认输入FB1110复核后按Tab失焦的现场。",
+    "time": "2026-11-10 17:21:18",
+    "screenshot": "screenshots/F02b.jpg",
+    "panel": false
+  },
+  {
+    "id": "F02c",
+    "caption": "重开备注仍为空零字",
+    "status": "部分",
+    "detail": "两次分别Enter与Tab提交后均未显示备注；重新打开输入为0/15空值。首次提交后刷新也为空。需要开发核查保存行为。",
+    "time": "2026-11-10 17:22:45",
+    "screenshot": "screenshots/F02c.jpg",
+    "panel": false
+  },
+  {
+    "id": "F05c",
+    "caption": "刷新后客户备注确认为空",
+    "status": "过",
+    "detail": "刷新重选第二账号后客户备注为空，已恢复；统计仍显示AI0人工2，档案提示当前5条与聊了4句差异需核实统计口径。",
+    "time": "2026-11-10 17:24:43",
+    "screenshot": "screenshots/F05c.jpg",
+    "panel": true
+  },
+  {
+    "id": "F12",
+    "caption": "刷新后进度为空且原设置保留",
+    "status": "过",
+    "detail": "刷新后进度仍0条，原有2个会话保留，临时好友分组筛选已移除；第二账号在线，fb客服测试/标准7秒/作息关/新会话默认AI开维持原值。未触发消息发送。",
+    "time": "2026-11-10 17:25:36",
+    "screenshot": "screenshots/F12.jpg",
+    "panel": "progress"
+  }
+]
