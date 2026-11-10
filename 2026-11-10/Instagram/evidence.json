@@ -1,0 +1,346 @@
+[
+  {
+    "id": "I01a",
+    "caption": "ceshi1对端会话已人工接管",
+    "status": "过",
+    "detail": "已登录2个Instagram账号；ceshi1与siegertwo会话人工。ceshi2是另一个已有会话，不在本轮授权收件人中，不触碰其AI状态。",
+    "time": "2026-11-10 14:16:46",
+    "screenshot": "screenshots/I01a.jpg"
+  },
+  {
+    "id": "I01b",
+    "caption": "siegertwo测试会话切为人工",
+    "status": "过",
+    "detail": "仅将与ceshi1会话人工接管；另一端已人工，两端不会自动互回。",
+    "time": "2026-11-10 14:21:07",
+    "screenshot": "screenshots/I01b.jpg"
+  },
+  {
+    "id": "I02",
+    "caption": "空白消息禁用发送",
+    "status": "过",
+    "detail": "输入三个空格后发送按钮保持禁用。",
+    "time": "2026-11-10 14:21:16",
+    "screenshot": "screenshots/I02.jpg"
+  },
+  {
+    "id": "I03a",
+    "caption": "A端多行文本发送成功",
+    "status": "过",
+    "detail": "点击发送后已发送，原有日语目标语言自动翻译；人工列表已自动更新，I01b为短暂状态差异而非持续故障。",
+    "time": "2026-11-10 14:21:36",
+    "screenshot": "screenshots/I03a.jpg"
+  },
+  {
+    "id": "I03b",
+    "caption": "B端收到并反向发送",
+    "status": "过",
+    "detail": "B收到A原文，Enter发送反向中英表情消息。A显示日语辅助译文，但B收到的是原文，后续单独测试翻译发送。",
+    "time": "2026-11-10 14:22:01",
+    "screenshot": "screenshots/I03b.jpg"
+  },
+  {
+    "id": "I07a",
+    "caption": "临时话术保存后出现",
+    "status": "过",
+    "detail": "原话术为空，新建唯一INS-I07条目成功。",
+    "time": "2026-11-10 14:22:25",
+    "screenshot": "screenshots/I07a.jpg"
+  },
+  {
+    "id": "I07b",
+    "caption": "话术已发送并清理临时项",
+    "status": "过",
+    "detail": "发送记录保留，话术列表恢复为空；对端到达将在A端核对。",
+    "time": "2026-11-10 14:22:49",
+    "screenshot": "screenshots/I07b.jpg"
+  },
+  {
+    "id": "I04a",
+    "caption": "图片发送后显示缩略图",
+    "status": "过",
+    "detail": "B发送旧Zalo几何测试样图，作为复用附件样本；图中文字日期不代表本次日期。",
+    "time": "2026-11-10 14:23:10",
+    "screenshot": "screenshots/I04a.jpg"
+  },
+  {
+    "id": "I05",
+    "caption": "TXT被明确提示不支持",
+    "status": "过",
+    "detail": "选择TXT后未发送，显示Instagram仅支持图片、视频、音频；属于正确的平台限制提示。",
+    "time": "2026-11-10 14:23:17",
+    "screenshot": "screenshots/I05.jpg"
+  },
+  {
+    "id": "I04b",
+    "caption": "A端收到反向文本话术和图片",
+    "status": "过",
+    "detail": "确认I03-B、I07及几何图片均到达A的ceshi1会话。",
+    "time": "2026-11-10 14:23:36",
+    "screenshot": "screenshots/I04b.jpg"
+  },
+  {
+    "id": "I04c",
+    "caption": "收到的图片可放大预览",
+    "status": "过",
+    "detail": "媒体预览放大至125%，几何图内容完整。",
+    "time": "2026-11-10 14:23:45",
+    "screenshot": "screenshots/I04c.jpg"
+  },
+  {
+    "id": "I08a",
+    "caption": "英文译文生成后可发送",
+    "status": "过",
+    "detail": "中文输入生成英文营业时间问句，发送按钮可用。",
+    "time": "2026-11-10 14:24:08",
+    "screenshot": "screenshots/I08a.jpg"
+  },
+  {
+    "id": "I08b",
+    "caption": "英文译文已发送",
+    "status": "过",
+    "detail": "A端消息记录出现实际英文译文并标记已发送。",
+    "time": "2026-11-10 14:24:22",
+    "screenshot": "screenshots/I08b.jpg"
+  },
+  {
+    "id": "I11a",
+    "caption": "会话置顶后移至列表顶部",
+    "status": "过",
+    "detail": "ceshi1移至列表首位并出现图钉。",
+    "time": "2026-11-10 14:24:35",
+    "screenshot": "screenshots/I11a.jpg"
+  },
+  {
+    "id": "I11b",
+    "caption": "搜索ceshi1只显示目标会话",
+    "status": "过",
+    "detail": "取消置顶后输入名称，列表只显示ceshi1。",
+    "time": "2026-11-10 14:25:20",
+    "screenshot": "screenshots/I11b.jpg"
+  },
+  {
+    "id": "I11c",
+    "caption": "归档后历史记录仍可查看",
+    "status": "过",
+    "detail": "已归档1，ceshi1标为已归档，文本与图片历史保留。",
+    "time": "2026-11-10 14:25:45",
+    "screenshot": "screenshots/I11c.jpg"
+  },
+  {
+    "id": "I11d",
+    "caption": "取消归档后恢复人工会话",
+    "status": "过",
+    "detail": "会话恢复、已归档为0，历史保留，仍是人工接管。",
+    "time": "2026-11-10 14:26:35",
+    "screenshot": "screenshots/I11d.jpg"
+  },
+  {
+    "id": "I15a",
+    "caption": "AI作息当前处于正常回复时段",
+    "status": "过",
+    "detail": "只读确认08:00–23:30工作、10:00–12:30放慢1分钟；当前14:26，未改账户级设置。",
+    "time": "2026-11-10 14:26:59",
+    "screenshot": "screenshots/I15a.jpg"
+  },
+  {
+    "id": "I06a",
+    "caption": "三秒色块视频显示已发送",
+    "status": "过",
+    "detail": "A上传本轮生成的无隐私MP4，出现视频卡片与已发送。",
+    "time": "2026-11-10 14:27:01",
+    "screenshot": "screenshots/I06a.jpg"
+  },
+  {
+    "id": "I08c",
+    "caption": "B端收到英文译文",
+    "status": "过",
+    "detail": "对端14:24收到英文营业时间问句，确认不是只显示本地翻译。视频仍加载中，稍后复核。",
+    "time": "2026-11-10 14:27:29",
+    "screenshot": "screenshots/I08c.jpg"
+  },
+  {
+    "id": "I06b",
+    "caption": "对端视频可播放至三秒结束",
+    "status": "过",
+    "detail": "B端视频预览正常；DOM媒体状态记录播放时长和结束状态。",
+    "time": "2026-11-10 14:27:49",
+    "screenshot": "screenshots/I06b.jpg"
+  },
+  {
+    "id": "I10a",
+    "caption": "AI草稿生成但未自动发送",
+    "status": "过",
+    "detail": "人工接管保持开启，草稿在输入区上方，消息历史没有自动发出草稿。",
+    "time": "2026-11-10 14:28:27",
+    "screenshot": "screenshots/I10a.jpg"
+  },
+  {
+    "id": "I13a",
+    "caption": "重新打开客户页备注仍保留",
+    "status": "过",
+    "detail": "临时备注保存并重开后可见，原值为空。",
+    "time": "2026-11-10 14:28:41",
+    "screenshot": "screenshots/I13a.jpg"
+  },
+  {
+    "id": "I13b",
+    "caption": "手记进度保存并显示一条",
+    "status": "过",
+    "detail": "测试进度出现在当前阶段和全部记录中。",
+    "time": "2026-11-10 14:29:07",
+    "screenshot": "screenshots/I13b.jpg"
+  },
+  {
+    "id": "I13c",
+    "caption": "临时进度已清理回零条",
+    "status": "过",
+    "detail": "仅清理本轮新增进度，未删除任何会话。",
+    "time": "2026-11-10 14:29:27",
+    "screenshot": "screenshots/I13c.jpg"
+  },
+  {
+    "id": "I09a",
+    "caption": "仅A端开启AI自动回复",
+    "status": "过",
+    "detail": "A与ceshi1会话AI接待；B与siegertwo会话始终人工。",
+    "time": "2026-11-10 14:29:38",
+    "screenshot": "screenshots/I09a.jpg"
+  },
+  {
+    "id": "I15b",
+    "caption": "跨平台关联缺少在线测试条件",
+    "status": "部分",
+    "detail": "面板可打开，社媒设备离线、0个候选；未建立任何关联，沿用用户暂不提供额外测试账号的决定。",
+    "time": "2026-11-10 14:30:01",
+    "screenshot": "screenshots/I15b.jpg"
+  },
+  {
+    "id": "I15c",
+    "caption": "工具箱主动消息入口可打开",
+    "status": "部分",
+    "detail": "预约列表为空；本轮未创建定时任务，避免未完成任务残留。",
+    "time": "2026-11-10 14:30:19",
+    "screenshot": "screenshots/I15c.jpg"
+  },
+  {
+    "id": "I12a",
+    "caption": "添加分组后列表仍为空",
+    "status": "部分",
+    "detail": "提交INS-I12-20261110后输入清空，但管理列表仍显示没有分组；需重开核对。",
+    "time": "2026-11-10 14:30:45",
+    "screenshot": "screenshots/I12a.jpg"
+  },
+  {
+    "id": "I09b",
+    "caption": "人工对端收到单侧AI回复",
+    "status": "过",
+    "detail": "B于14:30收到咖啡推荐；B人工接管和AI起草关。",
+    "time": "2026-11-10 14:34:38",
+    "screenshot": "screenshots/I09b.jpg"
+  },
+  {
+    "id": "I09c",
+    "caption": "AI回复后恢复人工接管",
+    "status": "过",
+    "detail": "A端咖啡推荐标记AI已发送，随后恢复人工，起草关闭。",
+    "time": "2026-11-10 14:37:38",
+    "screenshot": "screenshots/I09c.jpg"
+  },
+  {
+    "id": "I12b",
+    "caption": "刷新后新增分组才显示",
+    "status": "部分",
+    "detail": "14:30添加后列表持续为空，刷新页面并重选ceshi1后出现INS-I12-20261110（0人）；保存成功但页面未即时更新。 用户随后确认测试环境正在更新；降为待稳定环境复核，不列已确认产品缺陷。",
+    "time": "2026-11-10 14:41:34",
+    "screenshot": "screenshots/I12b.jpg"
+  },
+  {
+    "id": "I12c",
+    "caption": "加入分组点击后未出现选项",
+    "status": "部分",
+    "detail": "已有临时分组，点击加入分组后菜单未显示可选分组，截图核对。",
+    "time": "2026-11-10 14:44:03",
+    "screenshot": "screenshots/I12c.jpg"
+  },
+  {
+    "id": "I14a",
+    "caption": "群发仅勾选一名测试好友",
+    "status": "过",
+    "detail": "仅siegertwo被勾选，ceshi2未选，固定文案预览昵称替换正确。",
+    "time": "2026-11-10 14:51:49",
+    "screenshot": "screenshots/I14a.jpg"
+  },
+  {
+    "id": "I14b",
+    "caption": "单人群发任务显示完成",
+    "status": "过",
+    "detail": "固定文案任务已发送1、跳过0、失败0；待对端核对。",
+    "time": "2026-11-10 14:54:01",
+    "screenshot": "screenshots/I14b.jpg"
+  },
+  {
+    "id": "I14c",
+    "caption": "对端收到群发但接待模式变化",
+    "status": "部分",
+    "detail": "A收到固定文案且昵称替换正确；A此前已转人工，现显示AI并在14:53自动回复。模式变化原因未确定，需排查持久化或外部操作。",
+    "time": "2026-11-10 14:58:48",
+    "screenshot": "screenshots/I14c.jpg"
+  },
+  {
+    "id": "I16a",
+    "caption": "列表已人工但输入区状态滞后",
+    "status": "部分",
+    "detail": "刷新后列表与聊天标题已人工，底部仍AI接待且接管开关禁用，出现状态不一致；下一步重新选择会话复核。",
+    "time": "2026-11-10 15:02:32",
+    "screenshot": "screenshots/I16a.jpg"
+  },
+  {
+    "id": "I16b",
+    "caption": "A端最终人工接管且起草关闭",
+    "status": "过",
+    "detail": "刷新后重新选择ceshi1，人工接管开启、输入可用、AI起草关；目标语言日语。 同图出现服务暂不可用提示，用户确认由测试环境更新引起。",
+    "time": "2026-11-10 15:04:16",
+    "screenshot": "screenshots/I16b.jpg"
+  },
+  {
+    "id": "I16c",
+    "caption": "B端最终人工接管且起草关闭",
+    "status": "过",
+    "detail": "B对siegertwo保持人工，AI起草关，目标语言中文；两账号在线。",
+    "time": "2026-11-10 15:08:24",
+    "screenshot": "screenshots/I16c.jpg"
+  },
+  {
+    "id": "I12d",
+    "caption": "刷新后临时分组已清理",
+    "status": "过",
+    "detail": "ceshi1管理分组为空，确认INS-I12-20261110已删除；用户确认期间测试环境更新，先前列表不更新暂列待复核。",
+    "time": "2026-11-10 15:09:58",
+    "screenshot": "screenshots/I12d.jpg"
+  },
+  {
+    "id": "I12e",
+    "caption": "再次添加后分组列表仍为空",
+    "status": "部分",
+    "detail": "用户解释环境更新后15:11再次添加INS-RECHECK-1110；输入清空但列表仍为空。需稳定环境复核，不确定与更新关系。",
+    "time": "2026-11-10 15:11:40",
+    "screenshot": "screenshots/I12e.jpg"
+  },
+  {
+    "id": "I12f",
+    "caption": "第二次刷新后才出现新分组",
+    "status": "部分",
+    "detail": "INS-RECHECK-1110在页面刷新后出现0人；再次观察到列表未及时更新。环境更新起止未知，仍列待稳定环境复核。",
+    "time": "2026-11-10 15:17:36",
+    "screenshot": "screenshots/I12f.jpg"
+  },
+  {
+    "id": "I12g",
+    "caption": "复核临时分组已全部清理",
+    "status": "过",
+    "detail": "刷新后B管理分组为空，INS-RECHECK-1110已清理；B仍人工且起草关。",
+    "time": "2026-11-10 15:22:52",
+    "screenshot": "screenshots/I12g.jpg"
+  }
+]
